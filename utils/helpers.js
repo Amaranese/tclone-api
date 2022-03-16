@@ -5,7 +5,7 @@
  * @param type - one of name, username, password, custom
  * @param {Object} opts optional setings with sig { min_length, max_length, regex }
  */
- function escapeHtml(unsafe) {
+function escapeHtml(unsafe) {
     if (!unsafe || unsafe.length === 0)
         return unsafe
     return unsafe
